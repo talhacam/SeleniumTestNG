@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name= 'Parallel Cross Browser Test' parallel="classes" thread-count="2" verbose="1">
+    <test name= "Parallel test 2">
+            <classes>
+                <class name="comBatch81TestNG\src\SeleniumGrid1.xml"></class>
+                <class name="techproed.tests.SeleniumGrid2"></class>
+            </classes>
+    </test>
+</suite>
